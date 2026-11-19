@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0e5ff;
+    font-family: 'Comic Sans MS', cursive;
+    color: #21172f;
+}
+
+
+.navbar {
+    background: #392451;
+    border-radius: 0 0 20px 20px;
+    padding: 12px;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white;
+    background: #604477;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 8px 15px !important;
+    font-size: 13px;
+}
+
+.nav-link:hover {
+    background: #a77acb;
+    color: white;
+}
+
+
+.presentacion {
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-size: 43px;
+    font-weight: bold;
+    transform: rotate(-2deg);
+    margin-bottom: 20px;
+}
+
+.presentacion p {
+    font-size: 18px;
+}
+
+.personajes {
+    width: 100%;
+    max-height: 330px;
+    object-fit: contain;
+}
+
+
+.boton {
+    background-color: #b987e5;
+    color: white;
+    border: 2px solid #70449b;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.boton:hover {
+    background-color: #75459c;
+    color: white;
+}
+
+
+.caja {
+    padding: 25px;
+    border-radius: 25px;
+    min-height: 190px;
+    border: 2px solid #d4b4eb;
+}
+
+.caja h3 {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.rosa {
+    background-color: #f9d9ef;
+}
+
+.violeta {
+    background-color: #dfc7fa;
+}
+
+.caja p {
+    margin-bottom: 8px;
+}
+
+
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-wrap: wrap;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .personajes {
+        margin-top: 25px;
+    }
+}

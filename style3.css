@@ -1,8 +1,7 @@
 body {
-    background:#b987e5;
-    font-family: 'Comic Sans MS', cursive;
-    color: #21172f;
+    background-color: #b987e5;
 }
+
 .seccion-juegos {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -19,7 +18,7 @@ body {
     border: 2px solid #dfc2f5;
     border-radius: 20px;
     overflow: hidden;
-    background-color: white;
+    background-color: #ffffff;
     height: 100%;
     transition: 0.3s;
 }
@@ -33,10 +32,6 @@ body {
     object-fit: cover;
 }
 
-.card-body {
-    padding: 20px;
-}
-
 .card-title {
     color: #70449b;
     font-weight: bold;
@@ -44,13 +39,4 @@ body {
 
 .card p {
     font-size: 14px;
-}
-
-.boton {
-    background-color: #b987e5;
-    color: white;
-    border: 2px solid #70449b;
-    border-radius: 25px;
-    font-weight: bold;
-    padding: 10px 20px;
 }
